@@ -57,7 +57,7 @@ COMPFLAGS=-c -O2 -g -w -fno-automatic
 CXX=g++
 
 LHAPDFINCLUDE = $(shell lhapdf-config --incdir)
-LHAPDFLIBS = $(shell lhapdf-config --ldflags)
+LHAPDFLIBS = $(shell lhapdf-config --ldflags) -lLHAPDF
 LHAPDFCPP = $(shell lhapdf-config --cppflags) --std=c++17
 HOPPETLIBS = -L/mnt/home/lopezels/InstallSources/HOPPET1/lib -lhoppet_v1
 

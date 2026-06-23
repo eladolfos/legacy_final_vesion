@@ -493,3 +493,12 @@ Install the PDF set via LHAPDF:
 ```bash
 /mnt/home/lopezels/InstallSources/LHAPDF/bin/lhapdf install CT18NNLO
 ```
+
+**Undefined references to `evolvepdf_`, `lhapdf_xfxq_`, `LHAPDF::mkPDF`, etc. at link time**
+This happens when `lhapdf-config --ldflags` returns only the `-L` path flag without `-lLHAPDF`
+(observed with GCC 13.2.0 / binutils 2.40 on MSU HPCC). The fix is already applied in the
+Makefile — `LHAPDFLIBS` is set to `$(shell lhapdf-config --ldflags) -lLHAPDF` — but if you
+regenerate the Makefile or hit this on another system, make sure `-lLHAPDF` appears explicitly
+in the link command. All the missing symbols (`evolvepdf_`, `alphaspdf_`, `lhapdf_xfxq_`,
+`lhapdf_initpdfset_byname_`, etc.) are provided by LHAPDF6's built-in compatibility layer and
+will resolve once the library is correctly linked.
