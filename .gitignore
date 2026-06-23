@@ -1,0 +1,26 @@
+# Compiled output
+main
+*.o
+*.co
+*.a
+*.mod
+
+# Fortran runtime output
+fort.*
+
+# Run output files
+*.out
+
+# Hoppet compiled binaries and build artifacts
+hoppet/benchmarking/benchmark
+hoppet/benchmarking/prec_and_timing
+hoppet/benchmarking/test_acc/compare2files_v2
+hoppet/example_f90/tabulation_example
+hoppet/example_f90/tabulation_example_2
+hoppet/example_f90/tabulation_example_streamlined
+hoppet/example_f90/sumrules
+hoppet/include/
+
+# Editor temporaries
+*~
+\#*\#

@@ -1,0 +1,118 @@
+#Makefile for Legacy
+#Author: Pavel Nadolsky, July 8, 1999
+#Use tabs whenever you see them
+
+#COMP=g77296
+COMP=gfortran
+
+# For cteq4 --  ct4m.ini
+#PRZPAC=PrzPac701
+#EVLPAC=EvlPac721
+#QCDPAC=QcdPac66
+#UTLPAC=UtlPac6
+#
+# For cteq5 --  ct5m.ini
+#PRZPAC=PrzPac732
+#EVLPAC=EvlPac732
+#QCDPAC=QcdPac70
+#UTLPAC=UtlPac601
+#
+# For cteq6
+#PRZPAC=PrzPac801
+#EVLPAC=EvlPac801
+#QCDPAC=QcdPac70
+#UTLPAC=UtlPac601
+#
+# For cteq6.1
+#PRZPAC=PrzPac92a
+#PRZPAC=PrzPac01e
+#EVLPAC=EvlPac92an
+#QCDPAC=QcdPac92a
+#UTLPAC=UtlPac92a
+#
+# For cteq6.1 and cteq6.6 (via link to 6.5)
+# PRZPAC=PrzPac01e_66
+# EVLPAC=EvlPac92a
+# QCDPAC=QcdPac92a
+# UTLPAC=UtlPac92a
+
+# Jan 31, 2009 
+PRZPAC=PrzPac02b
+EVLPAC=EvlPac02b
+QCDPAC=QcdPac02b
+UTLPAC=UtlPac02b
+EWKPAC=EwkPac02b
+#LHAPAC=LhaPac02b
+#
+TARGET=main
+#
+#COMPFLAGS=-c -g 
+#COMPFLAGS=-c -O 
+#
+COMPFLAGS=-c -O2 -g -w -fno-automatic 
+#COMPFLAGS=-c -O -fno-automatic
+#COMPFLAGS=-c -O -fvxt -fno-automatic
+#COMPFLAGS=-c -g -w -fno-automatic
+#
+CXX=g++
+
+LHAPDFINCLUDE = $(shell lhapdf-config --incdir)
+LHAPDFLIBS = $(shell lhapdf-config --ldflags)
+LHAPDFCPP = $(shell lhapdf-config --cppflags) --std=c++17
+HOPPETLIBS = -L./hoppet/src/ -lhoppet_v1
+
+LINKFLAGS= -O2 -fno-automatic -o $(TARGET)
+#$(TARGET): $(TARGET).o pert.o res.o pda.o CT14Pdf.o $(EVLPAC).o $(PRZPAC).o $(QCDPAC).o\
+#                          $(UTLPAC).o $(EWKPAC).o $(LHAPAC).o pion.o lhapdf.co
+#	$(COMP) $(LINKFLAGS) $(TARGET).o pert.o res.o pda.o CT14Pdf.o $(EVLPAC).o \
+#	     $(PRZPAC).o $(QCDPAC).o $(UTLPAC).o $(EWKPAC).o $(LHAPAC).o pion.o lhapdf.co $(LHAPDFLIBS)
+$(TARGET): $(TARGET).o pert.o res.o pda.o CT14Pdf.o $(EVLPAC).o $(PRZPAC).o $(QCDPAC).o\
+                          $(UTLPAC).o $(EWKPAC).o pion.o lhapdf.co pert_vj.o
+	$(COMP) $(LINKFLAGS) $(TARGET).o pert.o res.o pda.o CT14Pdf.o $(EVLPAC).o \
+	     $(PRZPAC).o $(QCDPAC).o $(UTLPAC).o $(EWKPAC).o pion.o lhapdf.co pert_vj.o $(HOPPETLIBS) $(LHAPDFLIBS) -lstdc++
+
+%.co: %.cpp
+	$(CXX) $(CXXFLAGS) $(LHAPDFCPP) -c -o $@ $<
+
+main.o: main.for 
+	$(COMP) $(COMPFLAGS)  main.for
+
+pert.o: pert.for 
+	$(COMP) $(COMPFLAGS)  pert.for
+
+pert_vj.o: pert_vj.for 
+	$(COMP) $(COMPFLAGS)  pert_vj.for
+
+res.o: res.for 
+	$(COMP) $(COMPFLAGS)  res.for
+
+pda.o: pda.for 
+	$(COMP) $(COMPFLAGS)  pda.for
+
+CT14Pdf.o: CT14Pdf.f 
+	$(COMP) $(COMPFLAGS)  CT14Pdf.f
+
+$(EVLPAC).o: $(EVLPAC).for
+	$(COMP) $(COMPFLAGS)  $(EVLPAC).for
+
+$(PRZPAC).o: $(PRZPAC).for
+	$(COMP) $(COMPFLAGS)  $(PRZPAC).for
+	
+$(QCDPAC).o: $(QCDPAC).for
+	$(COMP) $(COMPFLAGS)  $(QCDPAC).for
+	
+$(UTLPAC).o: $(UTLPAC).for
+	$(COMP) $(COMPFLAGS)  $(UTLPAC).for
+	
+$(EWKPAC).o: $(EWKPAC).for
+	$(COMP) $(COMPFLAGS)  $(EWKPAC).for
+	
+#$(LHAPAC).o: $(LHAPAC).for
+#	$(COMP) $(COMPFLAGS)  $(LHAPAC).for
+	
+pion.o: pion.for
+	$(COMP) $(COMPFLAGS)  pion.for
+
+clean:;		@rm -f *.o core main *.co
+
+#end 

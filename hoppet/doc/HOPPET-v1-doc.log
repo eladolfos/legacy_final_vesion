@@ -1,0 +1,1230 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2016.7.28)  2 NOV 2016 10:01
+entering extended mode
+ %&-line parsing enabled.
+**HOPPET-v1-doc.tex
+(./HOPPET-v1-doc.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size12.clo
+File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+))
+(/usr/share/texmf/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip11
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+)
+(/usr/share/texmf/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/share/texmf/tex/latex/ltxmisc/a4wide.sty
+Package: a4wide 1994/08/30
+
+(/usr/share/texmf/tex/latex/ntgclass/a4.sty
+Package: a4 2004/04/15 v1.2g A4 based page layout
+))
+(/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texmf/tex/latex/listings/listings.sty
+\lst@mode=\count100
+\lst@gtempboxa=\box28
+\lst@token=\toks20
+\lst@length=\count101
+\lst@currlwidth=\dimen114
+\lst@column=\count102
+\lst@pos=\count103
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count104
+\lst@lineno=\count105
+\c@lstlisting=\count106
+\lst@maxwidth=\dimen117
+
+(/usr/share/texmf/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2004/10/17 1.3b (Carsten Heinz)
+)
+(/usr/share/texmf/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2004/09/07 1.3 (Carsten Heinz)
+\c@lstnumber=\count107
+\lst@skipnumbers=\count108
+\lst@framebox=\box29
+)
+(/usr/share/texmf/tex/latex/listings/listings.cfg
+File: listings.cfg 2004/09/05 1.3 listings configuration
+))
+Package: listings 2004/10/17 1.3b (Carsten Heinz)
+
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
+\@linkdim=\dimen118
+\Hy@linkcounter=\count109
+\Hy@pagecounter=\count110
+
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf/tex/latex/config/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
+HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 2288.
+Package hyperref Info: Link nesting OFF on input line 2293.
+Package hyperref Info: Hyper index ON on input line 2296.
+Package hyperref Info: Plain pages OFF on input line 2303.
+Package hyperref Info: Backreferencing OFF on input line 2308.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2444.
+LaTeX Info: Redefining \url on input line 2599.
+\Fld@menulength=\count111
+\Field@Width=\dimen119
+\Fld@charsize=\dimen120
+\Choice@toks=\toks21
+\Field@toks=\toks22
+Package hyperref Info: Hyper figures OFF on input line 3102.
+Package hyperref Info: Link nesting OFF on input line 3107.
+Package hyperref Info: Hyper index ON on input line 3110.
+Package hyperref Info: backreferencing OFF on input line 3117.
+Package hyperref Info: Link coloring OFF on input line 3122.
+\Hy@abspage=\count112
+\c@Item=\count113
+\c@Hfootnote=\count114
+)
+*hyperref using default driver hpdftex*
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2007/02/07 v6.75r Hyperref driver for pdfTeX
+\Fld@listcount=\count115
+)
+(/usr/share/texmf/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+No file HOPPET-v1-doc.aux.
+\openout1 = `HOPPET-v1-doc.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+Package hyperref Info: Link coloring OFF on input line 117.
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
+
+(/usr/share/texmf/tex/latex/oberdiek/refcount.sty
+Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
+)
+\c@section@level=\count116
+)
+LaTeX Info: Redefining \ref on input line 117.
+LaTeX Info: Redefining \pageref on input line 117.
+\@outlinefile=\write3
+\openout3 = `HOPPET-v1-doc.out'.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 120.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 120.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+) [1
+
+{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
+LaTeX Warning: Reference `sec:Timing' on page 2 undefined on input line 191.
+
+[2]
+\tf@toc=\write4
+\openout4 = `HOPPET-v1-doc.toc'.
+
+
+
+LaTeX Warning: Citation `Botje' on page 3 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Schoeffel:1998tz' on page 3 undefined on input line 20
+3.
+
+
+LaTeX Warning: Citation `Pegasus' on page 3 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Pascaud:2001bi' on page 3 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Weinzierl:2002mv' on page 3 undefined on input line 20
+3.
+
+
+LaTeX Warning: Citation `coriano' on page 3 undefined on input line 203.
+
+
+LaTeX Warning: Citation `GuzziThesis' on page 3 undefined on input line 203.
+
+
+LaTeX Warning: Citation `nnpdf' on page 3 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Kosower:1997hg' on page 3 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Ratcliffe:2000kp' on page 3 undefined on input line 20
+3.
+
+
+LaTeX Warning: Citation `DGLAP' on page 3 undefined on input line 205.
+
+
+LaTeX Warning: Citation `DGLAP' on page 3 undefined on input line 211.
+
+
+LaTeX Warning: Citation `Botje' on page 3 undefined on input line 243.
+
+
+LaTeX Warning: Citation `Schoeffel:1998tz' on page 3 undefined on input line 24
+3.
+
+
+LaTeX Warning: Citation `Pegasus' on page 3 undefined on input line 243.
+
+
+LaTeX Warning: Citation `Pascaud:2001bi' on page 3 undefined on input line 243.
+
+
+
+LaTeX Warning: Citation `Weinzierl:2002mv' on page 3 undefined on input line 24
+3.
+
+
+LaTeX Warning: Citation `coriano' on page 3 undefined on input line 243.
+
+
+LaTeX Warning: Citation `GuzziThesis' on page 3 undefined on input line 243.
+
+
+LaTeX Warning: Citation `nnpdf' on page 3 undefined on input line 243.
+
+
+LaTeX Warning: Citation `Kosower:1997hg' on page 3 undefined on input line 243.
+
+
+
+LaTeX Warning: Citation `Ratcliffe:2000kp' on page 3 undefined on input line 24
+3.
+
+
+LaTeX Warning: Citation `nnpdf' on page 3 undefined on input line 253.
+
+
+LaTeX Warning: Reference `eq:dglap' on page 3 undefined on input line 255.
+
+
+LaTeX Warning: Reference `eq:dglap' on page 3 undefined on input line 268.
+
+[3]
+
+LaTeX Warning: Citation `Weinzierl:2002mv' on page 4 undefined on input line 29
+8.
+
+
+LaTeX Warning: Citation `Pegasus' on page 4 undefined on input line 298.
+
+
+LaTeX Warning: Citation `Kosower:1997hg' on page 4 undefined on input line 298.
+
+
+
+LaTeX Warning: Citation `Botje' on page 4 undefined on input line 306.
+
+
+LaTeX Warning: Citation `CTEQ' on page 4 undefined on input line 307.
+
+
+LaTeX Warning: Citation `MRST' on page 4 undefined on input line 307.
+
+
+LaTeX Warning: Citation `Schoeffel:1998tz' on page 4 undefined on input line 31
+0.
+
+
+LaTeX Warning: Citation `Pascaud:2001bi' on page 4 undefined on input line 310.
+
+
+
+LaTeX Warning: Citation `coriano' on page 4 undefined on input line 310.
+
+
+LaTeX Warning: Citation `GuzziThesis' on page 4 undefined on input line 310.
+
+
+LaTeX Warning: Citation `DisResum' on page 4 undefined on input line 310.
+
+
+Overfull \hbox (16.85558pt too wide) in paragraph at lines 313--324
+[]\OT1/cmr/m/sc/12 hoppet\OT1/cmr/m/n/12 , the pro-gram pre-sented here, uses h
+igher-order meth-ods both for the $\OML/cmm/m/it/12 x$\OT1/cmr/m/n/12 -integrat
+ions
+ []
+
+
+LaTeX Warning: Citation `DisResum' on page 4 undefined on input line 332.
+
+
+LaTeX Warning: Citation `caesar' on page 4 undefined on input line 333.
+
+
+LaTeX Warning: Citation `Ciafaloni:2003rd' on page 4 undefined on input line 33
+4.
+
+
+LaTeX Warning: Citation `APPL' on page 4 undefined on input line 336.
+
+
+LaTeX Warning: Citation `Banfi:2007gu' on page 4 undefined on input line 336.
+
+
+LaTeX Warning: Citation `Pegasus' on page 4 undefined on input line 338.
+
+
+LaTeX Warning: Citation `Benchmarks' on page 4 undefined on input line 338.
+
+[4]
+
+LaTeX Warning: Reference `sec:pqcd' on page 5 undefined on input line 344.
+
+
+LaTeX Warning: Reference `tricks' on page 5 undefined on input line 346.
+
+
+LaTeX Warning: Reference `sec:singleflav' on page 5 undefined on input line 348
+.
+
+
+LaTeX Warning: Reference `sec:tabulated-pdfs' on page 5 undefined on input line
+ 348.
+
+
+LaTeX Warning: Reference `sec:vanilla' on page 5 undefined on input line 352.
+
+
+LaTeX Warning: Reference `sec:benchmarks' on page 5 undefined on input line 356
+.
+
+
+LaTeX Warning: Reference `sec:singleflav' on page 5 undefined on input line 370
+.
+
+
+LaTeX Warning: Reference `sec:tabulated-pdfs' on page 5 undefined on input line
+ 370.
+
+
+LaTeX Warning: Reference `sec:vanilla' on page 5 undefined on input line 372.
+
+
+LaTeX Warning: Reference `sec:singleflav' on page 5 undefined on input line 381
+.
+
+
+LaTeX Warning: Reference `sec:tabulated-pdfs' on page 5 undefined on input line
+ 381.
+
+
+LaTeX Warning: Citation `LHAPDF' on page 5 undefined on input line 387.
+
+
+LaTeX Warning: Reference `eq:dglap-ns' on page 5 undefined on input line 406.
+
+
+LaTeX Warning: Citation `CFP' on page 5 undefined on input line 408.
+
+
+LaTeX Warning: Citation `NNLO-NS' on page 5 undefined on input line 408.
+
+
+LaTeX Warning: Citation `NNLO-singlet' on page 5 undefined on input line 408.
+
+
+LaTeX Warning: Citation `Mertig:1995ny' on page 5 undefined on input line 414.
+
+
+LaTeX Warning: Citation `Vogelsang:1996im' on page 5 undefined on input line 41
+4.
+
+
+LaTeX Warning: Citation `CFP' on page 5 undefined on input line 421.
+
+
+LaTeX Warning: Citation `Stratmann:1996hn' on page 5 undefined on input line 42
+1.
+
+
+LaTeX Warning: Citation `Dokshitzer:2005bf' on page 5 undefined on input line 4
+21.
+
+
+LaTeX Warning: Citation `Mitov:2006ic' on page 5 undefined on input line 421.
+
+
+LaTeX Warning: Citation `Basso:2006nk' on page 5 undefined on input line 421.
+
+
+LaTeX Warning: Citation `Dokshitzer:2006nm' on page 5 undefined on input line 4
+21.
+
+
+LaTeX Warning: Citation `Beccaria:2007bb' on page 5 undefined on input line 421
+.
+
+
+LaTeX Warning: Citation `Mitov:2006ic' on page 5 undefined on input line 424.
+
+[5]
+Overfull \hbox (11.34904pt too wide) in paragraph at lines 478--478
+[] 
+ []
+
+
+LaTeX Warning: Reference `eq:diag_split' on page 6 undefined on input line 480.
+
+
+
+LaTeX Warning: Citation `NNLO-MTM' on page 6 undefined on input line 482.
+
+
+LaTeX Warning: Citation `Chetyrkin:1997sg' on page 6 undefined on input line 50
+1.
+
+
+LaTeX Warning: Reference `eq:lp-nf1' on page 6 undefined on input line 504.
+
+
+LaTeX Warning: Reference `eq:hp-nf1' on page 6 undefined on input line 504.
+
+[6]
+
+LaTeX Warning: Citation `Sherstnev:2008dm' on page 7 undefined on input line 52
+5.
+
+
+LaTeX Warning: Citation `LHAPDF' on page 7 undefined on input line 539.
+
+
+LaTeX Warning: Citation `vanNeerven:1999ca' on page 7 undefined on input line 5
+46.
+
+
+LaTeX Warning: Citation `vanNeerven:2000uj' on page 7 undefined on input line 5
+46.
+
+
+LaTeX Warning: Reference `eq:diag_split' on page 7 undefined on input line 547.
+
+
+
+LaTeX Warning: Reference `sec:evln-rep' on page 7 undefined on input line 558.
+
+[7] [8]
+
+LaTeX Warning: Citation `coriano' on page 9 undefined on input line 677.
+
+
+LaTeX Warning: Citation `Ratcliffe:2000kp' on page 9 undefined on input line 67
+7.
+
+
+LaTeX Warning: Reference `fig:interpolation-orders' on page 9 undefined on inpu
+t line 685.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.699 ...=0.72\textwidth]{interpolation-order.eps}
+                                                  %
+? 
+
+LaTeX Warning: Reference `eq:dglap-ns' on page 9 undefined on input line 724.
+
+[9]
+
+LaTeX Warning: Reference `eq:evol' on page 10 undefined on input line 749.
+
+
+LaTeX Warning: Reference `eq:evolop' on page 10 undefined on input line 750.
+
+
+LaTeX Warning: Reference `sec:direct-evolution' on page 10 undefined on input l
+ine 752.
+
+
+LaTeX Warning: Reference `sec:f95appendix' on page 10 undefined on input line 7
+78.
+
+[10]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 801.
+
+
+LaTeX Warning: Reference `sec:highord' on page 11 undefined on input line 818.
+
+
+LaTeX Warning: Citation `NRf90' on page 11 undefined on input line 828.
+
+[11]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 892.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 892.
+
+
+Overfull \hbox (10.47066pt too wide) in paragraph at lines 901--906
+\OT1/cmtt/m/n/12 allocatable \OT1/cmr/m/n/12 at-tribute. To deal-lo-cate a grid
+ quan-tity, one may safely use the F95 \OT1/cmtt/m/n/12 deallocate
+ []
+
+
+LaTeX Warning: Reference `sec:highord' on page 12 undefined on input line 929.
+
+
+LaTeX Warning: Reference `sec:gridinit' on page 12 undefined on input line 938.
+
+
+
+Overfull \hbox (19.87804pt too wide) in paragraph at lines 935--939
+\OT1/cmr/m/n/12 to ini-tialise \OT1/cmtt/m/n/12 xgluon \OT1/cmr/m/n/12 with a r
+ep-re-sen-ta-tion of the re-turn value from the func-tion \OT1/cmtt/m/n/12 exam
+ple[]xgluon\OT1/cmr/m/n/12 .
+ []
+
+[12] [13] [14]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1085.
+
+ [15] [16]
+
+LaTeX Warning: Reference `sec:acc_table' on page 17 undefined on input line 122
+7.
+
+
+LaTeX Warning: Reference `fig:interpolation-orders' on page 17 undefined on inp
+ut line 1269.
+
+[17]
+
+LaTeX Warning: Reference `eq:lumi-tricks' on page 18 undefined on input line 12
+83.
+
+
+Overfull \hbox (38.93137pt too wide) in paragraph at lines 1317--1321
+\OT1/cmr/m/n/12 The rou-tines de-scribed in this sec-tion are avail-able from t
+he \OT1/cmtt/m/n/12 pdf[]general \OT1/cmr/m/n/12 and \OT1/cmtt/m/n/12 pdf[]repr
+esentation
+ []
+
+[18]
+
+LaTeX Warning: Reference `sec:pqcd' on page 19 undefined on input line 1363.
+
+[19]
+Overfull \hbox (57.1123pt too wide) in paragraph at lines 1408--1410
+\OT1/cmr/m/n/12 There ex-ist a num-ber of other op-tions, which can be found by
+ brows-ing through \OT1/cmtt/m/n/12 src/pdf[]general.f90\OT1/cmr/m/n/12 .
+ []
+
+
+LaTeX Warning: Citation `LHAPDF' on page 20 undefined on input line 1415.
+
+
+Overfull \hbox (14.91104pt too wide) in paragraph at lines 1414--1416
+\OT1/cmr/m/n/12 where \OT1/cmtt/m/n/12 LHAsub \OT1/cmr/m/n/12 is the name of a 
+sub-rou-tine with the same in-ter-face as LHAPDF's \OT1/cmtt/m/n/12 evolvePDF \
+OT1/cmr/m/n/12 [[]]: 
+ []
+
+
+LaTeX Warning: Citation `LHAPDF' on page 20 undefined on input line 1425.
+
+
+LaTeX Warning: Reference `sec:xspc' on page 20 undefined on input line 1430.
+
+
+LaTeX Warning: Reference `eq:diag_split' on page 20 undefined on input line 146
+9.
+
+[20]
+Overfull \hbox (38.02441pt too wide) in paragraph at lines 1485--1486
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (4.76016pt too wide) in paragraph at lines 1511--1516
+\OT1/cmr/m/n/12 Splitting func-tion ma-tri-ces and their ac-tions on PDFs are d
+e-fined in  \OT1/cmtt/m/n/12 module dglap[]objects
+ []
+
+[21]
+
+LaTeX Warning: Reference `sec:pdf-objects' on page 22 undefined on input line 1
+597.
+
+[22]
+
+LaTeX Warning: Reference `sec:derived_grid_conv' on page 23 undefined on input 
+line 1627.
+
+
+LaTeX Warning: Reference `sec:derived_grid_conv' on page 23 undefined on input 
+line 1643.
+
+
+Overfull \hbox (29.91833pt too wide) in paragraph at lines 1641--1649
+\OT1/cmr/m/n/12 Note that we need to pro-vide the num-ber of ac-tive quark flav
+ours to \OT1/cmtt/m/n/12 GetDerivedSplitMatProbes\OT1/cmr/m/n/12 .
+ []
+
+[23]
+
+LaTeX Warning: Reference `eq:dpdf' on page 24 undefined on input line 1733.
+
+[24]
+
+LaTeX Warning: Reference `sect:nnlo' on page 25 undefined on input line 1771.
+
+
+LaTeX Warning: Reference `sec:qcd' on page 25 undefined on input line 1772.
+
+
+LaTeX Warning: Reference `sec:pqcd' on page 25 undefined on input line 1796.
+
+[25]
+
+LaTeX Warning: Citation `VogtMTMParam' on page 26 undefined on input line 1847.
+
+
+
+Overfull \hbox (20.38867pt too wide) in paragraph at lines 1859--1861
+\OT1/cmr/m/n/12 with the fol-low-ing vari-ants de-fined (as in-te-ger pa-ram-e-
+ters), again in the mod-ule \OT1/cmtt/m/n/12 dglap[]choices\OT1/cmr/m/n/12 : 
+ []
+
+[26]
+
+LaTeX Warning: Citation `White:2005wm' on page 27 undefined on input line 1906.
+
+
+
+LaTeX Warning: Reference `sec:dglap-split' on page 27 undefined on input line 1
+924.
+
+
+LaTeX Warning: Reference `sec:mtm' on page 27 undefined on input line 1924.
+
+[27]
+
+LaTeX Warning: Citation `Benchmarks' on page 28 undefined on input line 2018.
+
+
+LaTeX Warning: Citation `Pegasus' on page 28 undefined on input line 2020.
+
+[28]
+
+LaTeX Warning: Citation `Bethke:2006ac' on page 29 undefined on input line 2029
+.
+
+
+LaTeX Warning: Reference `eq:as-ev' on page 29 undefined on input line 2042.
+
+[29]
+
+LaTeX Warning: Reference `sec:benchmarks' on page 30 undefined on input line 21
+39.
+
+[30]
+
+LaTeX Warning: Reference `sec:pqcd' on page 31 undefined on input line 2183.
+
+[31] [32]
+
+LaTeX Warning: Reference `sec:human-rep' on page 33 undefined on input line 232
+2.
+
+
+LaTeX Warning: Reference `sec:direct-evolution' on page 33 undefined on input l
+ine 2341.
+
+
+Overfull \hbox (1.03398pt too wide) in paragraph at lines 2337--2346
+\OT1/cmr/m/n/12 de-fault one for \OT1/cmtt/m/n/12 EvolvePDF \OT1/cmr/m/n/12 whi
+ch, we re-call, may be set us-ing \OT1/cmtt/m/n/12 SetDefaultEvolutionDu(du)\OT
+1/cmr/m/n/12 .
+ []
+
+
+LaTeX Warning: Reference `sec:precomputed-evolution' on page 33 undefined on in
+put line 2348.
+
+[33]
+
+LaTeX Warning: Citation `APPL' on page 34 undefined on input line 2413.
+
+
+LaTeX Warning: Citation `Banfi:2007gu' on page 34 undefined on input line 2413.
+
+
+
+LaTeX Warning: Citation `caesar' on page 34 undefined on input line 2415.
+
+
+LaTeX Warning: Citation `DisResum' on page 34 undefined on input line 2415.
+
+[34]
+
+LaTeX Warning: Reference `sec:sum-rules' on page 35 undefined on input line 243
+9.
+
+
+LaTeX Warning: Reference `sec:example_program' on page 35 undefined on input li
+ne 2456.
+
+
+LaTeX Warning: Reference `sec:refguide' on page 35 undefined on input line 2482
+.
+
+[35]
+
+LaTeX Warning: Citation `Benchmarks' on page 36 undefined on input line 2547.
+
+[36]
+
+LaTeX Warning: Citation `Benchmarks' on page 37 undefined on input line 2646.
+
+
+LaTeX Warning: Citation `Pegasus' on page 37 undefined on input line 2648.
+
+[37]
+
+LaTeX Warning: Citation `Benchmarks' on page 38 undefined on input line 2654.
+
+
+LaTeX Warning: Citation `Benchmarks' on page 38 undefined on input line 2679.
+
+
+LaTeX Warning: Reference `sec:tabulated-pdfs' on page 38 undefined on input lin
+e 2707.
+
+
+LaTeX Warning: Reference `fig:grid' on page 38 undefined on input line 2714.
+
+
+LaTeX Warning: Citation `Benchmarks' on page 38 undefined on input line 2725.
+
+[38]
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2730 ...egraphics[width=0.7\textwidth]{grid.eps}
+                                                  %
+? 
+
+LaTeX Warning: Reference `fig:acc-fixed-dy-dlnlnQ' on page 39 undefined on inpu
+t line 2747.
+
+
+LaTeX Warning: Reference `fig:acc-fixed-dy-dlnlnQ' on page 39 undefined on inpu
+t line 2747.
+
+
+LaTeX Warning: Reference `fig:grid' on page 39 undefined on input line 2768.
+
+
+LaTeX Warning: Reference `fig:acc-fixed-dy-dlnlnQ' on page 39 undefined on inpu
+t line 2778.
+
+[39]
+
+LaTeX Warning: Reference `fig:grid' on page 40 undefined on input line 2797.
+
+
+LaTeX Warning: Reference `fig:acc-fixed-dy-dlnlnQ' on page 40 undefined on inpu
+t line 2801.
+
+
+LaTeX Warning: Reference `fig:grid' on page 40 undefined on input line 2809.
+
+
+LaTeX Warning: Reference `fig:acc-fixed-dy-dlnlnQ' on page 40 undefined on inpu
+t line 2817.
+
+
+! LaTeX Error: Unknown graphics extension: .2-dlnlnQ0.05.eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2821 ....48\textwidth]{acc-dy0.2-dlnlnQ0.05.eps}
+                                                  \hfill
+? 
+
+! LaTeX Error: Unknown graphics extension: .05-dlnlnQ0.0125.eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2822 ...\textwidth]{acc-dy0.05-dlnlnQ0.0125.eps}
+                                                  
+? 
+
+LaTeX Warning: Reference `fig:acc-fixed-dy-dlnlnQ' on page 40 undefined on inpu
+t line 2831.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2842 ...degraphics[width=0.48\textwidth]{dy.eps}
+                                                  %
+? 
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2844 ...phics[width=0.495\textwidth]{dlnlnQ.eps}
+                                                  %
+? 
+
+LaTeX Warning: Reference `fig:dy+dlnlnQ' on page 40 undefined on input line 285
+6.
+
+
+LaTeX Warning: Reference `fig:dy+dlnlnQ' on page 40 undefined on input line 286
+7.
+
+[40]
+
+LaTeX Warning: Reference `eq:timing' on page 41 undefined on input line 2918.
+
+
+LaTeX Warning: Reference `eq:timing' on page 41 undefined on input line 2918.
+
+
+LaTeX Warning: Reference `tab:timings' on page 41 undefined on input line 2923.
+
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2942 ...ics[width=0.7\textwidth]{acc-v-time.eps}
+                                                  %
+? 
+
+LaTeX Warning: Reference `fig:acc-v-time' on page 41 undefined on input line 29
+49.
+
+[41]
+
+LaTeX Warning: Citation `Pegasus' on page 42 undefined on input line 2966.
+
+
+LaTeX Warning: Citation `Weinzierl:2002mv' on page 42 undefined on input line 2
+971.
+
+
+LaTeX Warning: Citation `coriano' on page 42 undefined on input line 2971.
+
+
+LaTeX Warning: Citation `Botje' on page 42 undefined on input line 2971.
+
+
+LaTeX Warning: Reference `tab:acc-param' on page 42 undefined on input line 297
+5.
+
+
+Overfull \hbox (2.96213pt too wide) in paragraph at lines 2983--3002
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `de Florian:2007hc' on page 42 undefined on input line 
+3022.
+
+
+LaTeX Warning: Citation `White:2005wm' on page 42 undefined on input line 3034.
+
+
+
+LaTeX Warning: Citation `Corcella:2005us' on page 42 undefined on input line 30
+35.
+
+[42]
+
+LaTeX Warning: Citation `Martin:2007bv' on page 43 undefined on input line 3051
+.
+
+
+LaTeX Warning: Citation `Tung:2006tb' on page 43 undefined on input line 3051.
+
+
+LaTeX Warning: Citation `Weinzierl:2002mv' on page 43 undefined on input line 3
+057.
+
+
+LaTeX Warning: Citation `Martin:2004dh' on page 43 undefined on input line 3057
+.
+
+
+LaTeX Warning: Citation `Ciafaloni:2000df' on page 43 undefined on input line 3
+060.
+
+
+LaTeX Warning: Citation `Ciafaloni:2005fm' on page 43 undefined on input line 3
+060.
+
+
+LaTeX Warning: Citation `DisResum' on page 43 undefined on input line 3080.
+
+
+LaTeX Warning: Citation `Benchmarks' on page 43 undefined on input line 3101.
+
+
+LaTeX Warning: Reference `sec:vanilla' on page 43 undefined on input line 3106.
+
+
+
+LaTeX Warning: Reference `sec:stream-example' on page 43 undefined on input lin
+e 3107.
+
+[43] [44] [45]
+
+LaTeX Warning: Citation `Benchmarks' on page 46 undefined on input line 3245.
+
+
+LaTeX Warning: Reference `sec:vanilla' on page 46 undefined on input line 3254.
+
+
+[46] [47]
+
+LaTeX Warning: Citation `Benchmarks' on page 48 undefined on input line 3359.
+
+
+LaTeX Warning: Reference `sec:benchmarks' on page 48 undefined on input line 33
+60.
+
+
+Overfull \hbox (70.7637pt too wide) in paragraph at lines 3347--3361
+\OT1/cmr/m/n/12 in the \OT1/cmtt/m/n/12 examples[]f90/ \OT1/cmr/m/n/12 and \OT1
+/cmtt/m/n/12 benchmarking/ \OT1/cmr/m/n/12 di-rec-to-ries. One, \OT1/cmtt/m/n/1
+2 examples[]f90/tabulation[]example[]2.f90\OT1/cmr/m/n/12 ,
+ []
+
+
+LaTeX Warning: Reference `sec:example_gen' on page 48 undefined on input line 3
+363.
+
+[48]
+
+LaTeX Warning: Reference `sec:acc_table' on page 49 undefined on input line 341
+6.
+
+
+LaTeX Warning: Reference `tab:streamlined' on page 49 undefined on input line 3
+458.
+
+
+LaTeX Warning: Reference `tab:general' on page 49 undefined on input line 3459.
+
+
+
+Overfull \hbox (3.19646pt too wide) in paragraph at lines 3605--3723
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `sec:xspc' on page 49 undefined on input line 3747.
+
+[49] [50] [51]
+Overfull \hbox (19.66957pt too wide) in paragraph at lines 3770--3772
+\OT1/cmr/m/n/12 to ini-tialise \OT1/cmtt/m/n/12 gluon \OT1/cmr/m/n/12 with a re
+p-re-sen-ta-tion of the re-turn value from the sub-rou-tine \OT1/cmtt/m/n/12 ex
+ample[]gluon\OT1/cmr/m/n/12 . 
+ []
+
+
+LaTeX Warning: Reference `sec:human-rep' on page 52 undefined on input line 380
+9.
+
+
+LaTeX Warning: Citation `NNLO-NS' on page 52 undefined on input line 3815.
+
+
+LaTeX Warning: Citation `NNLO-singlet' on page 52 undefined on input line 3815.
+
+
+
+LaTeX Warning: Citation `NNLO-NS' on page 52 undefined on input line 3817.
+
+
+LaTeX Warning: Citation `NNLO-singlet' on page 52 undefined on input line 3817.
+
+
+
+LaTeX Warning: Citation `FortranPolyLog' on page 52 undefined on input line 382
+1.
+
+
+LaTeX Warning: Citation `NNLO-NS' on page 52 undefined on input line 3830.
+
+
+LaTeX Warning: Citation `NNLO-singlet' on page 52 undefined on input line 3830.
+
+
+
+LaTeX Warning: Citation `Benchmarks' on page 52 undefined on input line 3834.
+
+[52]
+
+LaTeX Warning: Citation `vanNeerven:1999ca' on page 53 undefined on input line 
+3853.
+
+
+LaTeX Warning: Citation `vanNeerven:2000uj' on page 53 undefined on input line 
+3853.
+
+
+LaTeX Warning: Reference `sec:qcd' on page 53 undefined on input line 3860.
+
+
+LaTeX Warning: Citation `F95Explained' on page 53 undefined on input line 3873.
+
+
+
+LaTeX Warning: Citation `F95WebResources' on page 53 undefined on input line 38
+73.
+
+[53] [54] [55] [56]
+Overfull \hbox (4.1584pt too wide) in paragraph at lines 4086--4088
+ \OT1/cmr/bx/n/12 Floating-point pre-ci-sion:[] \OT1/cmr/m/n/12 A fi-nal point 
+con-cerns floating-point vari-able types. Through-
+ []
+
+[57] [58]
+Underfull \hbox (badness 1189) in paragraph at lines 4379--4385
+[]\OT1/cmr/m/n/12 M. Strat-mann and W. Vo-gel-sang, Nucl. Phys. B \OT1/cmr/bx/n
+/12 496 \OT1/cmr/m/n/12 (1997) 41 [arXiv:hep-
+ []
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 4554--4557
+[]\OT1/cmr/m/n/12 Many in-tro-duc-tions and tu-to-ri-als about for-tran 90 may 
+be found at
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4554--4557
+[]$\OT1/cmtt/m/n/12 http : / / dmoz . org / Computers / Programming / Languages
+ / Fortran / Tutorials /
+ []
+
+[60] (./HOPPET-v1-doc.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6448 strings out of 256214
+ 88085 string characters out of 1916922
+ 155743 words of memory out of 1500000
+ 8554 multiletter control sequences out of 10000+200000
+ 20925 words of font info for 81 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 31i,16n,49p,782b,1675s stack positions out of 5000i,500n,6000p,200000b,15000s
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
+ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx8.pfb><
+/usr/share/texmf/fonts/type1/bluesky/cm/cmcsc10.pfb></usr/share/texmf/fonts/typ
+e1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></
+usr/share/texmf/fonts/type1/bluesky/cm/cmmi12.pfb></usr/share/texmf/fonts/type1
+/bluesky/cm/cmmi6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi7.pfb></usr/
+share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/blue
+sky/cm/cmmib10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/sha
+re/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky
+/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/tex
+mf/fonts/type1/bluesky/cm/cmr7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr
+8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fon
+ts/type1/bluesky/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy7.pf
+b></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/fonts/ty
+pe1/bluesky/cm/cmti12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti8.pfb></
+usr/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb></usr/share/texmf/fonts/type1
+/bluesky/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmtt8.pfb></usr
+/share/texmf/fonts/type1/bluesky/ams/msam10.pfb>
+Output written on HOPPET-v1-doc.pdf (60 pages, 541416 bytes).
+PDF statistics:
+ 1672 PDF objects out of 1728 (max. 8388607)
+ 1111 named destinations out of 1200 (max. 131072)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+
