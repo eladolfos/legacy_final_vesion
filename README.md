@@ -18,6 +18,28 @@ transverse momentum (qT), rapidity (y), and invariant mass (Q) points.
 
 ---
 
+## Table of Contents
+
+- [What is Legacy?](#what-is-legacy)
+- [Code Structure](#code-structure)
+- [Dependencies](#dependencies)
+- [Getting the Code](#getting-the-code)
+- [Installation on MSU HPCC](#installation-on-msu-hpcc)
+  - [1. Load required modules](#1-load-required-modules)
+  - [2. Install LHAPDF6](#2-install-lhapdf6)
+  - [3. Build HOPPET (two options)](#3-build-hoppet-two-options)
+  - [4. Build Legacy](#4-build-legacy)
+- [Files to Copy to HPCC](#files-to-copy-to-hpcc)
+- [Running Legacy Interactively](#running-legacy-interactively)
+- [Understanding `legacy.in`](#understanding-legacyin)
+- [SLURM Job Script for MSU HPCC](#slurm-job-script-for-msu-hpcc)
+- [Example: W⁺ Production at LHC 8 TeV](#example-w-production-at-lhc-8-tev)
+- [Parallelism Notes](#parallelism-notes)
+- [Choosing a Partition on MSU HPCC](#choosing-a-partition-on-msu-hpcc)
+- [Troubleshooting](#troubleshooting)
+
+---
+
 ## Code Structure
 
 ```
@@ -58,7 +80,30 @@ legacy_final_vesion/
 | gfortran | ≥ 4.8 | Fortran compiler |
 | g++ | ≥ 7 (C++17) | C++ compiler for LHAPDF bridge |
 | LHAPDF | 6.x | External PDF sets (CT18NNLO, etc.) |
-| HOPPET | 1.x | PDF evolution (bundled in `hoppet/`) |
+| HOPPET | 1.x | PDF evolution (bundled in `hoppet/`, or use a pre-installed version) |
+
+---
+
+## Getting the Code
+
+Clone the repository with the `--recursive` flag so that the bundled `hoppet/`
+submodule is fetched at the same time:
+
+```bash
+git clone --recursive https://github.com/eladolfos/legacy_final_vesion.git
+cd legacy_final_vesion
+```
+
+If you already cloned without `--recursive` and the `hoppet/` directory is
+empty, initialize the submodule afterwards:
+
+```bash
+git submodule update --init --recursive
+```
+
+> **Note:** The `--recursive` flag is only required if you plan to build
+> HOPPET from the bundled source (Option B below). If you will use a
+> pre-installed HOPPET (Option A), a plain `git clone` is sufficient.
 
 ---
 
@@ -98,9 +143,40 @@ make install
 /mnt/home/lopezels/InstallSources/LHAPDF/bin/lhapdf install CT14nnlo
 ```
 
-### 3. Build HOPPET (bundled)
+### 3. Build HOPPET (two options)
 
-HOPPET is included in the `hoppet/` subdirectory. Build it in-place:
+#### Option A — Use a pre-installed HOPPET (recommended on MSU HPCC)
+
+If you already have HOPPET installed (e.g. at
+`/mnt/home/lopezels/InstallSources/HOPPET1`), open `Makefile` and set the
+`HOPPETLIBS` variable to point to that installation:
+
+```makefile
+HOPPETLIBS = -L/mnt/home/lopezels/InstallSources/HOPPET1/lib -lhoppet_v1
+```
+
+Also make sure the library is on your runtime path so the linker can find it
+at build time:
+
+```bash
+export LD_LIBRARY_PATH=/mnt/home/lopezels/InstallSources/HOPPET1/lib:$LD_LIBRARY_PATH
+```
+
+Adding these two lines to your `~/.bashrc` makes them permanent:
+
+```bash
+export LD_LIBRARY_PATH=/mnt/home/lopezels/InstallSources/HOPPET1/lib:$LD_LIBRARY_PATH
+export PATH=/mnt/home/lopezels/InstallSources/HOPPET1/bin:$PATH
+```
+
+> **Note:** `LD_LIBRARY_PATH` tells the *runtime* loader where to find shared
+> libraries but does not affect the linker at compile time. The `-L` flag in
+> `HOPPETLIBS` is what the linker uses, so it must point to the actual
+> installation directory.
+
+#### Option B — Build the bundled HOPPET from source
+
+HOPPET source is included in the `hoppet/` subdirectory. Build it in-place:
 
 ```bash
 cd /path/to/legacy_final_vesion/hoppet
@@ -110,7 +186,12 @@ make -j4
 make install
 ```
 
-This places `libhoppet_v1.a` in `hoppet/src/`, which the Makefile expects at `-L./hoppet/src/`.
+This places `libhoppet_v1.a` in `hoppet/src/`. Then set `HOPPETLIBS` in the
+Makefile to use that local copy:
+
+```makefile
+HOPPETLIBS = -L./hoppet/src/ -lhoppet_v1
+```
 
 ### 4. Build Legacy
 
@@ -312,8 +393,14 @@ QT_______   y_______   Q______
 ```bash
 cd /mnt/home/lopezels/runs/legacy_W_LHC8
 
-# Build HOPPET first (if not already done)
-cd hoppet && ./configure --prefix=$(pwd) FC=gfortran && make -j4 && make install && cd ..
+# If using pre-installed HOPPET (Option A), verify Makefile has:
+#   HOPPETLIBS = -L/mnt/home/lopezels/InstallSources/HOPPET1/lib -lhoppet_v1
+# and set runtime path:
+export LD_LIBRARY_PATH=/mnt/home/lopezels/InstallSources/HOPPET1/lib:$LD_LIBRARY_PATH
+
+# If using bundled HOPPET (Option B), build it first:
+# cd hoppet && ./configure --prefix=$(pwd) FC=gfortran && make -j4 && make install && cd ..
+# (and verify Makefile has: HOPPETLIBS = -L./hoppet/src/ -lhoppet_v1)
 
 # Build Legacy
 export PATH=/mnt/home/lopezels/InstallSources/LHAPDF/bin:$PATH
@@ -365,6 +452,17 @@ on grid density.
 ---
 
 ## Troubleshooting
+
+**`cannot find -lhoppet_v1` during make**
+The linker cannot find the HOPPET library. Check that `HOPPETLIBS` in the Makefile
+points to the directory that contains `libhoppet_v1.a` (or `.so`). For a pre-installed
+version on MSU HPCC this should be:
+```makefile
+HOPPETLIBS = -L/mnt/home/lopezels/InstallSources/HOPPET1/lib -lhoppet_v1
+```
+For the bundled build (Option B above), use `-L./hoppet/src/` instead. Note that
+`LD_LIBRARY_PATH` in your `.bashrc` does **not** fix this — it only affects the
+runtime loader, not the linker.
 
 **`lhapdf-config: command not found` during make**
 Add LHAPDF to PATH before running make:

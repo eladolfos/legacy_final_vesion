@@ -59,7 +59,7 @@ CXX=g++
 LHAPDFINCLUDE = $(shell lhapdf-config --incdir)
 LHAPDFLIBS = $(shell lhapdf-config --ldflags)
 LHAPDFCPP = $(shell lhapdf-config --cppflags) --std=c++17
-HOPPETLIBS = -L./hoppet/src/ -lhoppet_v1
+HOPPETLIBS = -L/mnt/home/lopezels/InstallSources/HOPPET1/lib -lhoppet_v1
 
 LINKFLAGS= -O2 -fno-automatic -o $(TARGET)
 #$(TARGET): $(TARGET).o pert.o res.o pda.o CT14Pdf.o $(EVLPAC).o $(PRZPAC).o $(QCDPAC).o\
